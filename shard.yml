@@ -1,0 +1,19 @@
+name: tuffl
+version: 0.1.0
+
+authors:
+  -  <tim@gocardless.com>
+
+targets:
+  tuffl:
+    main: src/tuffl.cr
+
+crystal: 0.20.3
+
+license: MIT
+
+dependencies:
+  terminal_table:
+    github: benoist/terminal_table.cr
+  cli:
+    github: mosop/cli
