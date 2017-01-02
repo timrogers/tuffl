@@ -17,3 +17,6 @@ dependencies:
     github: benoist/terminal_table.cr
   cli:
     github: mosop/cli
+  commander:
+    github: mrrooijen/commander
+    version: ~> 0.3.3

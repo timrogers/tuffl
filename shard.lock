@@ -8,6 +8,10 @@ shards:
     github: mosop/cli
     version: 0.5.1.5
 
+  commander:
+    github: mrrooijen/commander
+    version: 0.3.3
+
   optarg:
     github: mosop/optarg
     version: 0.4.2.9

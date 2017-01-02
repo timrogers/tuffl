@@ -4,7 +4,7 @@ require "cli"
 
 module Tuffl
   class Command < Cli::Command
-    HEADINGS = ["Line", "Destination", "Due", "Current Location"]
+    HEADINGS = ["Line/Route", "Destination", "Due", "Current Location"]
 
     version VERSION
 
@@ -15,6 +15,7 @@ module Tuffl
 
     class Options
       arg "naptan-id", desc: "The NaPTAN (National Public Transport Access Node) identifier for the stop", required: true
+
       help
       version
     end
